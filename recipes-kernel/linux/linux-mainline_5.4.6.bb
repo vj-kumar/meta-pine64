@@ -12,6 +12,6 @@ KBUILD_DEPENDS += "rsync"
 
 SRC_URI += " \
     https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-${ARCHIVE_VERSION}.tar.xz"
-SRC_URI[sha256sum] = "d72579aa732edd0e25779adfc43e68a53f77e80020c4aab5db2f5b28c247e98a"
+SRC_URI[sha256sum] = "fda561bcdea397ddd59656319c53871002938b19b554f30efed90affa30989c8"
 
 S = "${WORKDIR}/linux-${ARCHIVE_VERSION}"
